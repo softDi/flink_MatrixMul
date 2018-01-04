@@ -40,6 +40,7 @@ int main(){
 			matrix[i][j]=r;
 		}
 	}
+	puts("Please enter the file name:");
 	char str[100];
 	gets(str);
 	create_marks_csv(str,matrix,100,100);
