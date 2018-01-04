@@ -32,7 +32,6 @@ public class matrixmul {
                                                                                  String filePath) {
         CsvReader csvReader = env.readCsvFile(filePath);
         csvReader.fieldDelimiter(',');
-        //csvReader.includeFields("fttt");
 
         return csvReader.types(Integer.class, Integer.class, Integer.class);
     }
